@@ -12,7 +12,7 @@ accountCity = "cuttuck"
 Prefer not to use var
 because of issue in block scope and functional scope
 */
-console.log(accountId);
+console.log(accountId); //console.log(); use for print 
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState]); /* instend of use console.log();
                                                                         so many times you can use console.table([]); 
                                                                         print in one table and ";" is not ncessery */
